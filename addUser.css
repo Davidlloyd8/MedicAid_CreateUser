@@ -95,21 +95,19 @@ body {
     right: 7%;
     top: 20%
 }
-.fas, .far {
-  color: #007bff;
-}
-/*.fa-bell {
+
+.fa-bell {
     position: absolute;
     right: 1%;
-    top: 20%;
+
 }
 
 .fa-cog {
     position: absolute;
     right: 5%;
-    top: 20%;
+
 }
-*/
+
 .med_aid .dash_main {
     width: 80%;
     min-height: 100vh;
@@ -225,7 +223,7 @@ body {
 
 
 @media screen and (max-width:768px) {
-   #form1, .fa-search, .icons {
+   #form1, .fa-search, .icons, .dash_options {
     display: none;
   }
   .image-upload {
@@ -240,5 +238,8 @@ body {
   #btn {
     width: 100%;
     margin-bottom: 10px;
+  }
+  .dash_main {
+    width: 100% !important;
   }
 }
